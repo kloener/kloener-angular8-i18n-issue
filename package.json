@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:localize": "ng build --i18nLocale=de-DE --i18nFile=src/locale/messages.de-DE.xlf --i18nFormat=xlf --baseHref=/app/de-DE/ --outputPath=dist/de-DE --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
