@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('angular8-fresh app is running!');
+    expect(page.getTitleText()).toEqual('kloener-angular8-i18n-issue app is running!');
   });
 
   afterEach(async () => {

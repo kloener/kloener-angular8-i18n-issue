@@ -2,142 +2,31 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="de" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="Welcome" datatype="html">
-        <source>Welcome</source>
-        <target>Willkommen</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">308</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="AppIsRunning" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ title }}"/> app is running!</source>
-        <target><x id="INTERPOLATION" equiv-text="{{ title }}"/> App läuft!</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">333</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="Resources" datatype="html">
         <source>Resources</source>
-        <target>Ressourcen</target>
+        <target>Resources</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">342</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Resources:Text" datatype="html">
-        <source>Here are some links to help you get started:</source>
+        <source>
+          Here are some <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+          to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>help<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+          <x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>you<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/> <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>get started<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>:
+        </source>
         <target>
-          Hier ein paar
-          1.
-          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-          2.
-          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-          3.
-          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-          zur
-          1.<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Hilfe<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-          2.<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Hilfe<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-          3. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Hilfe<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-          1. <x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>für dich<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/>
-          2. <x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>für dich<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/>
-          3.  <x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>für dich<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/>
-          1. <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>zum Starten<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>:
-          2. <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>zum Starten<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>:
-          3.  <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>zum Starten<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>:
+          Hier sind mehr HTML Tags als ursprünglich <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+          to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>help<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+          <x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>you<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/> <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>get started<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>:
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+          und noch ein link extra
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>help<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">343</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="LearnAngular" datatype="html">
-        <source>Learn Angular</source>
-        <target>Lerne Angular</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">349</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="CliDocs" datatype="html">
-        <source>CLI Documentation</source>
-        <target>CLI Dokumentation</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">356</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="AngularBlog" datatype="html">
-        <source>Angular Blog</source>
-        <target>Angular Blog</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">364</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="NextSteps" datatype="html">
-        <source>Next Steps</source>
-        <target>Nächste Schritte</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">372</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="NextSteps:text" datatype="html">
-        <source>What do you want to do next with your app?</source>
-        <target>What do you want to do next with your app?</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">373</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="NewComponent" datatype="html">
-        <source>New Component</source>
-        <target>New Component</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">381</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="AngularMaterial" datatype="html">
-        <source>Angular Material</source>
-        <target>Angular Material</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">387</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="AddPwaSupport" datatype="html">
-        <source>Add PWA Support</source>
-        <target>Add PWA Support</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">393</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="AddDeps" datatype="html">
-        <source>Add Dependency</source>
-        <target>Add Dependency</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">399</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="RunTests" datatype="html">
-        <source>Run and Watch Tests</source>
-        <target>Run and Watch Tests</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">405</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="BuildProd" datatype="html">
-        <source>Build for Production</source>
-        <target>Build for Production</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">411</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
     </body>
