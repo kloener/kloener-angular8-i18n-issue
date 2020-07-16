@@ -1,4 +1,4 @@
-# Angular9 i18n issue with multiple HTML tags in target.
+# Angular8 i18n *no* issue with multiple HTML tags in target.
 
 This is a minimal *working* sample project to emphasize and show the issue with i18n since Angular v9 when more HTML tags are used inside "target" than in "source".
 In this repo angular 8 is used and it works as expected!
